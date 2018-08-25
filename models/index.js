@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 const dbURL = require('../secrets');
 
+//api https://client-manager-api.herokuapp.com/
+
 mongoose.set('debug', true);
 mongoose.connect(dbURL.mongoURL);
 
