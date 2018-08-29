@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-// const webPage = require('../client-manager-react/public/index.html');
 const clientRoutes = require('./routes/clients');
 const app = express();
 const port = process.env.PORT || 5000;
