@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const dbURL = require('../secrets');
+const dbURL = require('../config/secrets');
 
 //api https://client-manager-api.herokuapp.com/
 
