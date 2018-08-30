@@ -28,7 +28,7 @@ exports.createClient = (req, res) => {
 };
 
 exports.getClient = (req, res) => {
-  db.Client.findById(re.params.id)
+  db.Client.findById(req.params.id)
     .then(foundClient => {
       res.json(foundClient);
     })
