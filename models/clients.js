@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const clientSchema = new mongoose.Schema({
   name: String,
   company: String,
+  title: String,
   phone: String,
   frontEnd: String,
   backEnd: String,
